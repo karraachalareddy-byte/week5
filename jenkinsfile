@@ -3,12 +3,12 @@ agent any
 stages{
 stage('complie'){
 steps{
-sh'javac addition.java'
+sh'javac 'helloworld.java'
 }
 }
 stage('Run'){
 steps{
-sh'java Addition'
+sh'java helloworld'
 }
 }
 }
